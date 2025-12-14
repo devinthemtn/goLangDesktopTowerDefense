@@ -139,6 +139,7 @@ func (g *Game) Update() error {
 
 	// Spawn enemies
 	g.spawnTimer += 1.0 / 60.0
+
 	if g.spawnTimer > g.config.SpawnDelay && g.enemiesSpawned < g.enemiesPerWave {
 		if g.config.DebugMode {
 			fmt.Printf("Spawning enemy %d/%d for wave %d\n", g.enemiesSpawned+1, g.enemiesPerWave, g.wave)
@@ -241,13 +242,6 @@ func (g *Game) Update() error {
 
 	// Update wave timer for bonus calculation
 	g.waveStartTime += 1.0 / 60.0
-
-	// Debug output to track wave progression
-	if g.config.DebugMode && g.spawnTimer > 1.0 { // Only print occasionally to avoid spam
-		fmt.Printf("Wave %d: Enemies: %d/%d spawned, %d alive, Mode: %d, State: %d\n",
-			g.wave, g.enemiesSpawned, g.enemiesPerWave, len(g.enemies),
-			g.modeManager.CurrentMode, g.modeManager.CurrentState)
-	}
 
 	return nil
 }

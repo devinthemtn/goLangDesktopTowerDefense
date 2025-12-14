@@ -106,12 +106,14 @@ func generateLevelData(config *GameConfig) []LevelData {
 	baseEnemyCount := 5
 	baseSpeed := 1.0
 	baseMoney := 150
+	baseSpawnDelay := 2.0
 
 	if config != nil {
 		baseHealth = config.BaseEnemyHealth
 		baseEnemyCount = config.EnemiesPerWave
 		baseSpeed = config.EnemySpeed
 		baseMoney = config.StartingMoney
+		baseSpawnDelay = config.SpawnDelay
 	}
 
 	for i := 0; i < 10; i++ {
@@ -123,7 +125,7 @@ func generateLevelData(config *GameConfig) []LevelData {
 			EnemyCount:    baseEnemyCount + i*2,
 			EnemyHealth:   int(float64(baseHealth) * difficultyMultiplier),
 			EnemySpeed:    baseSpeed + float64(i)*0.1,
-			SpawnDelay:    2.0 - float64(i)*0.1,
+			SpawnDelay:    baseSpawnDelay - float64(i)*0.1,
 			StartingMoney: baseMoney + i*25,
 			WaveBonus:     75 + i*25,
 			RequiredKills: baseEnemyCount + i*2,
