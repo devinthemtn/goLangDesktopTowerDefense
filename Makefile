@@ -1,6 +1,6 @@
 # Tower Defense Game Makefile
 
-.PHONY: build run clean install-deps demo test-menu help
+.PHONY: build run clean install-deps demo test-menu debug-waves help
 
 # Default target
 all: build
@@ -41,6 +41,11 @@ test-menu: build
 	@echo "Starting game for menu testing..."
 	./tower-defense
 
+# Debug wave progression
+debug-waves: build
+	@echo "Starting wave progression debug session..."
+	./debug-waves.sh
+
 # Clean build artifacts
 clean:
 	@echo "Cleaning build artifacts..."
@@ -76,6 +81,7 @@ help:
 	@echo "  make run          - Build and run the game"
 	@echo "  make demo         - Run enhanced graphics demonstration"
 	@echo "  make test-menu    - Test menu navigation system"
+	@echo "  make debug-waves  - Debug wave progression issues"
 	@echo "  make clean        - Remove build artifacts"
 	@echo "  make install-deps - Install system and Go dependencies"
 	@echo "  make test         - Run tests"

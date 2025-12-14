@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"math"
+	"os"
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
@@ -59,6 +60,11 @@ type Game struct {
 	enemiesPerWave    int
 	graphics          *GraphicsManager
 	modeManager       *GameModeManager
+	waveStartTime     float64
+	nextWaveRequested bool
+	spacePressed      bool
+	lastBonusEarned   int
+	bonusDisplayTimer float64
 }
 
 func NewGame(config *GameConfig) *Game {
@@ -92,7 +98,12 @@ func NewGame(config *GameConfig) *Game {
 		enemiesSpawned:    0,
 		enemiesPerWave:    config.GetEnemiesInWave(1),
 		graphics:          NewGraphicsManager(),
-		modeManager:       NewGameModeManager(),
+		modeManager:       NewGameModeManagerWithDebug(config.DebugMode, config),
+	}
+
+	// If debug mode auto-started playing mode, setup the first level
+	if config.DebugMode && game.modeManager.CurrentState == StatePlaying {
+		game.modeManager.setupLevel(game, 1)
 	}
 
 	return game
@@ -113,15 +124,38 @@ func (g *Game) Update() error {
 		return nil
 	}
 
+	// Handle spacebar for next wave (only when all enemies are dead and spawned)
+	spaceCurrentlyPressed := ebiten.IsKeyPressed(ebiten.KeySpace)
+	if spaceCurrentlyPressed && !g.spacePressed && len(g.enemies) == 0 && g.enemiesSpawned >= g.enemiesPerWave {
+		g.nextWaveRequested = true
+		if g.config.DebugMode {
+			fmt.Printf("Next wave requested via spacebar!\n")
+		}
+	}
+	g.spacePressed = spaceCurrentlyPressed
+
 	// Update particle system
 	g.graphics.ParticleSystem.Update()
 
 	// Spawn enemies
 	g.spawnTimer += 1.0 / 60.0
 	if g.spawnTimer > g.config.SpawnDelay && g.enemiesSpawned < g.enemiesPerWave {
+		if g.config.DebugMode {
+			fmt.Printf("Spawning enemy %d/%d for wave %d\n", g.enemiesSpawned+1, g.enemiesPerWave, g.wave)
+		}
 		g.spawnEnemy()
 		g.spawnTimer = 0
 		g.enemiesSpawned++
+	}
+
+	// Check wave completion here in main game loop as backup
+	if len(g.enemies) == 0 && g.enemiesSpawned >= g.enemiesPerWave {
+		if g.config.DebugMode {
+			fmt.Printf("Main loop detected wave completion: enemies=%d, spawned=%d/%d\n",
+				len(g.enemies), g.enemiesSpawned, g.enemiesPerWave)
+			fmt.Printf("Mode: %d, State: %d, Wave: %d\n",
+				g.modeManager.CurrentMode, g.modeManager.CurrentState, g.wave)
+		}
 	}
 
 	// Update enemies
@@ -144,6 +178,12 @@ func (g *Game) Update() error {
 			g.graphics.CreateExplosion(enemy.Position, 3, g.config)
 			g.money += g.config.EnemyReward
 			g.enemies = append(g.enemies[:i], g.enemies[i+1:]...)
+			if g.config.DebugMode {
+				fmt.Printf("Enemy killed! Remaining: %d, Spawned: %d/%d\n", len(g.enemies)-1, g.enemiesSpawned, g.enemiesPerWave)
+				if len(g.enemies)-1 == 0 && g.enemiesSpawned >= g.enemiesPerWave {
+					fmt.Printf("*** WAVE SHOULD COMPLETE NOW! ***\n")
+				}
+			}
 		}
 	}
 
@@ -199,8 +239,15 @@ func (g *Game) Update() error {
 		}
 	}
 
-	// Wave completion logic is now handled by mode manager
-	// This section is kept for compatibility but may be overridden
+	// Update wave timer for bonus calculation
+	g.waveStartTime += 1.0 / 60.0
+
+	// Debug output to track wave progression
+	if g.config.DebugMode && g.spawnTimer > 1.0 { // Only print occasionally to avoid spam
+		fmt.Printf("Wave %d: Enemies: %d/%d spawned, %d alive, Mode: %d, State: %d\n",
+			g.wave, g.enemiesSpawned, g.enemiesPerWave, len(g.enemies),
+			g.modeManager.CurrentMode, g.modeManager.CurrentState)
+	}
 
 	return nil
 }
@@ -482,13 +529,31 @@ func (g *Game) drawGameContent(screen *ebiten.Image) {
 		cost5, _, _, _ := g.config.GetTowerStats(5)
 		cost6, _, _, _ := g.config.GetTowerStats(6)
 
-		uiText := fmt.Sprintf("Money: $%d | Lives: %d | Wave: %d | Enemies: %d/%d\n\n"+
+		// Add wave progress feedback
+		waveStatus := ""
+		if g.enemiesSpawned < g.enemiesPerWave {
+			waveStatus = fmt.Sprintf(" - Spawning: %d/%d", g.enemiesSpawned, g.enemiesPerWave)
+		} else if len(g.enemies) > 0 {
+			waveStatus = fmt.Sprintf(" - Kill remaining: %d", len(g.enemies))
+		} else if len(g.enemies) == 0 && g.enemiesSpawned >= g.enemiesPerWave {
+			waveStatus = " - Press SPACE for next wave (BONUS!)"
+		}
+
+		uiText := fmt.Sprintf("Money: $%d | Lives: %d | Wave: %d%s\n\n"+
 			"1: Basic ($%d)  2: Heavy ($%d)  3: Sniper ($%d)\n"+
 			"4: Laser ($%d)  5: Splash ($%d)  6: Slow ($%d)\n\n"+
-			"Selected: %s Tower",
-			g.money, g.lives, g.wave, g.enemiesSpawned, g.enemiesPerWave,
+			"Selected: %s Tower\n"+
+			"Click to place towers and defend against enemies!\n"+
+			"Press SPACE when wave complete for bonus money!",
+			g.money, g.lives, g.wave, waveStatus,
 			cost1, cost2, cost3, cost4, cost5, cost6,
 			g.config.GetTowerName(g.selectedTowerType))
+
+		// Add bonus display if recently earned
+		if g.bonusDisplayTimer > 0 {
+			uiText += fmt.Sprintf("\n\n🎉 EARLY WAVE BONUS: +$%d!", g.lastBonusEarned)
+			g.bonusDisplayTimer -= 1.0 / 60.0
+		}
 
 		if g.config.ShowFPS {
 			uiText += fmt.Sprintf("\nFPS: %.1f", ebiten.ActualFPS())
@@ -503,8 +568,14 @@ func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {
 }
 
 func main() {
+	// Determine config file to use
+	configFile := "config.json"
+	if len(os.Args) > 1 {
+		configFile = os.Args[1]
+	}
+
 	// Load configuration
-	config, err := LoadConfig("config.json")
+	config, err := LoadConfig(configFile)
 	if err != nil {
 		log.Printf("Error loading config: %v, using defaults", err)
 		config = DefaultConfig()

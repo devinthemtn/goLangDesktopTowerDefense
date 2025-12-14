@@ -72,19 +72,47 @@ func NewGameModeManager() *GameModeManager {
 		MaxLevel:      10,
 		MenuSelection: 0,
 		MenuOptions:   []string{"Normal Mode", "Endless Mode", "Exit Game"},
-		LevelData:     generateLevelData(),
+		LevelData:     generateLevelData(nil),
+	}
+	return gmm
+}
+
+func NewGameModeManagerWithDebug(debugMode bool, config *GameConfig) *GameModeManager {
+	gmm := &GameModeManager{
+		CurrentMode:   GameModeMenu,
+		CurrentState:  StateMenu,
+		CurrentLevel:  1,
+		MaxLevel:      10,
+		MenuSelection: 0,
+		MenuOptions:   []string{"Normal Mode", "Endless Mode", "Exit Game"},
+		LevelData:     generateLevelData(config),
+	}
+	if debugMode {
+		// Auto-start normal mode for debugging
+		gmm.CurrentMode = GameModeNormal
+		gmm.CurrentState = StatePlaying
+		gmm.CurrentLevel = 1
+		// Note: setupLevel will be called from main.go after game creation
 	}
 	return gmm
 }
 
 // generateLevelData creates the campaign levels for normal mode
-func generateLevelData() []LevelData {
+func generateLevelData(config *GameConfig) []LevelData {
 	levels := make([]LevelData, 10)
 
+	// Use config values if available, otherwise use defaults
 	baseHealth := 50
 	baseEnemyCount := 5
 	baseSpeed := 1.0
 	baseMoney := 150
+
+	if config != nil {
+		baseHealth = config.BaseEnemyHealth
+		baseEnemyCount = config.EnemiesPerWave
+		baseSpeed = config.EnemySpeed
+		baseMoney = config.StartingMoney
+	}
 
 	for i := 0; i < 10; i++ {
 		level := i + 1
@@ -229,12 +257,19 @@ func (gmm *GameModeManager) updatePlaying(game *Game) error {
 		if gmm.LevelInfoTimer <= 0 {
 			gmm.ShowLevelInfo = false
 		}
+		// Allow gameplay to continue during level info display
 	}
 
 	// Check for game over
 	if game.lives <= 0 {
 		gmm.CurrentState = StateGameOver
 		return nil
+	}
+
+	// Reduce debug output spam - only show occasionally
+	if game.config.DebugMode && game.spawnTimer > 3.0 {
+		fmt.Printf("Game Status: Mode=%d, State=%d, Level=%d\n",
+			gmm.CurrentMode, gmm.CurrentState, gmm.CurrentLevel)
 	}
 
 	// Handle mode-specific logic
@@ -250,14 +285,66 @@ func (gmm *GameModeManager) updatePlaying(game *Game) error {
 
 // updateNormalMode handles normal/campaign mode progression
 func (gmm *GameModeManager) updateNormalMode(game *Game) error {
-	// Check if level is completed
-	if len(game.enemies) == 0 && game.enemiesSpawned >= game.enemiesPerWave {
+	// Only show debug output occasionally to avoid spam
+	if game.config.DebugMode && game.spawnTimer > 2.0 {
+		fmt.Printf("updateNormalMode: Level %d, Enemies: %d, Spawned: %d/%d\n",
+			gmm.CurrentLevel, len(game.enemies), game.enemiesSpawned, game.enemiesPerWave)
+	}
+
+	// Update transition timer when wave is complete
+	waveComplete := len(game.enemies) == 0 && game.enemiesSpawned >= game.enemiesPerWave
+	if waveComplete {
+		gmm.TransitionTimer += 1.0 / 60.0
+	} else {
+		gmm.TransitionTimer = 0
+	}
+
+	// Check if level should advance (via spacebar or auto after delay)
+	if waveComplete && (game.nextWaveRequested || gmm.shouldAutoAdvance()) {
+		// Add debug output
+		if game.config.DebugMode {
+			fmt.Printf("*** LEVEL COMPLETION DETECTED! ***\n")
+			fmt.Printf("Level %d completed! Enemies: %d, Spawned: %d/%d\n",
+				gmm.CurrentLevel, len(game.enemies), game.enemiesSpawned, game.enemiesPerWave)
+		}
+
 		if gmm.CurrentLevel >= gmm.MaxLevel {
 			// Game completed!
 			gmm.CurrentState = StateVictory
+			if game.config.DebugMode {
+				fmt.Printf("*** GAME VICTORY! ***\n")
+			}
 		} else {
+			// Calculate early completion bonus if spacebar was used
+			bonus := 0
+			if game.nextWaveRequested {
+				bonus = gmm.calculateEarlyCompletionBonus(game)
+				if game.config.DebugMode {
+					fmt.Printf("*** EARLY WAVE COMPLETION! Bonus: $%d ***\n", bonus)
+				}
+			}
+
 			// Advance to next level
+			if game.config.DebugMode {
+				fmt.Printf("*** ADVANCING TO NEXT LEVEL! ***\n")
+			}
 			gmm.advanceLevel(game)
+
+			// Apply bonus money
+			if bonus > 0 {
+				game.money += bonus
+				game.lastBonusEarned = bonus
+				game.bonusDisplayTimer = 3.0 // Show bonus for 3 seconds
+
+				// Create celebratory particle effects
+				centerX := float64(game.config.WindowWidth) / 2
+				centerY := float64(game.config.WindowHeight) / 2
+				game.graphics.CreateExplosion(Point{X: centerX, Y: centerY}, 5, game.config)
+
+				if game.config.DebugMode {
+					fmt.Printf("*** EARLY COMPLETION BONUS: $%d ***\n", bonus)
+				}
+			}
 		}
 	}
 	return nil
@@ -267,6 +354,12 @@ func (gmm *GameModeManager) updateNormalMode(game *Game) error {
 func (gmm *GameModeManager) updateEndlessMode(game *Game) error {
 	// Check if wave is completed
 	if len(game.enemies) == 0 && game.enemiesSpawned >= game.enemiesPerWave {
+		// Add debug output
+		if game.config.DebugMode {
+			fmt.Printf("Wave %d completed! Enemies: %d, Spawned: %d/%d\n",
+				gmm.EndlessWave, len(game.enemies), game.enemiesSpawned, game.enemiesPerWave)
+		}
+
 		gmm.EndlessWave++
 		gmm.EndlessDifficulty += 0.15 // Increase difficulty by 15% each wave
 		gmm.setupEndlessWave(game)
@@ -333,7 +426,7 @@ func (gmm *GameModeManager) startNormalMode(game *Game) {
 	gmm.CurrentLevel = 1
 	gmm.setupLevel(game, 1)
 	gmm.ShowLevelInfo = true
-	gmm.LevelInfoTimer = 3.0
+	gmm.LevelInfoTimer = 1.0
 }
 
 // startEndlessMode initializes endless mode
@@ -344,7 +437,7 @@ func (gmm *GameModeManager) startEndlessMode(game *Game) {
 	gmm.EndlessDifficulty = 1.0
 	gmm.setupEndlessWave(game)
 	gmm.ShowLevelInfo = true
-	gmm.LevelInfoTimer = 3.0
+	gmm.LevelInfoTimer = 1.0
 }
 
 // setupLevel configures the game for a specific campaign level
@@ -406,11 +499,81 @@ func (gmm *GameModeManager) setupEndlessWave(game *Game) {
 
 // advanceLevel moves to the next campaign level
 func (gmm *GameModeManager) advanceLevel(game *Game) {
+	// Add debug output
+	if game.config.DebugMode {
+		fmt.Printf("*** ADVANCE LEVEL CALLED! ***\n")
+		fmt.Printf("Advancing from level %d to %d\n", gmm.CurrentLevel, gmm.CurrentLevel+1)
+	}
+
+	oldLevel := gmm.CurrentLevel
 	gmm.CurrentLevel++
 	game.money += gmm.LevelData[gmm.CurrentLevel-2].WaveBonus // Previous level bonus
 	gmm.setupLevel(game, gmm.CurrentLevel)
 	gmm.ShowLevelInfo = true
-	gmm.LevelInfoTimer = 3.0
+	gmm.LevelInfoTimer = 1.0
+
+	if game.config.DebugMode {
+		fmt.Printf("*** LEVEL ADVANCED: %d -> %d, Wave: %d ***\n", oldLevel, gmm.CurrentLevel, game.wave)
+	}
+
+	// Reset wave timing and request flags
+	game.waveStartTime = 0
+	game.nextWaveRequested = false
+	gmm.TransitionTimer = 0
+}
+
+// shouldAutoAdvance determines if wave should advance automatically
+func (gmm *GameModeManager) shouldAutoAdvance() bool {
+	// Auto-advance after a brief delay to allow players to see completion
+	return gmm.TransitionTimer > 2.0
+}
+
+// calculateEarlyCompletionBonus calculates bonus money for early wave completion
+func (gmm *GameModeManager) calculateEarlyCompletionBonus(game *Game) int {
+	if !game.nextWaveRequested {
+		return 0
+	}
+
+	// Calculate expected wave duration based on spawn timing and difficulty
+	baseTime := float64(game.enemiesPerWave) * game.config.SpawnDelay
+	killTime := float64(game.enemiesPerWave) * 2.0 // Assume 2 seconds per enemy to kill
+	expectedDuration := baseTime + killTime + 5.0  // Add buffer time
+
+	actualDuration := game.waveStartTime
+
+	if actualDuration >= expectedDuration {
+		return 25 // Minimum bonus for using spacebar even if not faster
+	}
+
+	// Calculate time saved and bonus percentage
+	timeSaved := expectedDuration - actualDuration
+	bonusPercentage := timeSaved / expectedDuration
+
+	// More generous bonus scaling: 10% to 75% of wave bonus
+	if bonusPercentage > 0.8 {
+		bonusPercentage = 0.75
+	} else if bonusPercentage < 0.1 {
+		bonusPercentage = 0.1
+	} else {
+		bonusPercentage = bonusPercentage * 0.75 // Scale up the percentage
+	}
+
+	// Calculate bonus based on wave bonus + base reward
+	baseBonus := gmm.LevelData[gmm.CurrentLevel-1].WaveBonus
+	speedBonus := int(float64(baseBonus) * bonusPercentage)
+	minimumBonus := 25
+
+	// Ensure minimum bonus
+	if speedBonus < minimumBonus {
+		speedBonus = minimumBonus
+	}
+
+	if game.config.DebugMode {
+		fmt.Printf("Early completion: %.1fs saved (%.1fs expected), %.1f%% bonus, $%d earned\n",
+			timeSaved, expectedDuration, bonusPercentage*100, speedBonus)
+	}
+
+	return speedBonus
 }
 
 // returnToMenu resets to main menu
@@ -590,8 +753,13 @@ func (gmm *GameModeManager) drawLevelInfo(screen *ebiten.Image, game *Game) {
 		}
 	}
 
-	countdownText := fmt.Sprintf("Starting in %.1f seconds...", gmm.LevelInfoTimer)
-	ebitenutil.DebugPrintAt(screen, countdownText, centerX-80, centerY+60)
+	if gmm.LevelInfoTimer > 0.5 {
+		countdownText := fmt.Sprintf("Starting in %.1f seconds...", gmm.LevelInfoTimer)
+		ebitenutil.DebugPrintAt(screen, countdownText, centerX-80, centerY+60)
+	} else {
+		readyText := "Ready! Game starting..."
+		ebitenutil.DebugPrintAt(screen, readyText, centerX-80, centerY+60)
+	}
 }
 
 // drawGameOverScreen renders game over screen

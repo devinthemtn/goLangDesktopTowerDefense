@@ -1,0 +1,2564 @@
+🚀 Tower Defense starting up...
+📋 Loading config from: debug-wave-config.json
+📝 Config loaded. Debug mode: true
+🎮 Setting up window: 800x600
+🎯 Creating game instance...
+🎲 Game mode: 1, State: 1
+🎪 Starting game loop...
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Wave 1: Enemies: 0/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 0/3, State: 1
+Spawning enemy 1/3 for wave 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Wave 1: Enemies: 1/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 1/3, State: 1
+Spawning enemy 2/3 for wave 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Wave 1: Enemies: 2/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 2/3, State: 1
+Spawning enemy 3/3 for wave 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 3 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 3, Spawned: 3/3, State: 1
+🤖 AUTO-KILLING enemy for debug test! Remaining: 2
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 2 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 2, Spawned: 3/3, State: 1
+🤖 AUTO-KILLING enemy for debug test! Remaining: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+Wave 1: Enemies: 3/3 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 1, Spawned: 3/3, State: 1
+🤖 AUTO-KILLING enemy for debug test! Remaining: 0
+🎯 ALL ENEMIES AUTO-KILLED! Wave should complete now!
+Wave 1: Enemies: 3/3 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 1, Enemies: 0, Spawned: 3/3, State: 1
+*** LEVEL COMPLETION DETECTED! ***
+Level 1 completed! Enemies: 0, Spawned: 3/3
+*** ADVANCING TO NEXT LEVEL! ***
+*** ADVANCE LEVEL CALLED! ***
+Advancing from level 1 to 2
+*** LEVEL ADVANCED: 1 -> 2, Wave: 2 ***
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Wave 2: Enemies: 0/5 spawned, 0 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 0, Spawned: 0/5, State: 1
+Spawning enemy 1/5 for wave 2
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Wave 2: Enemies: 1/5 spawned, 1 alive, Mode: 1, State: 1
+updatePlaying: Mode=1 (Normal=1), State=1 (Playing=1)
+updateNormalMode called: Level 2, Enemies: 1, Spawned: 1/5, State: 1
+Spawning enemy 2/5 for wave 2
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1
+updateNormalMode called: Level 2, Enemies: 2, Spawned: 2/5, State: 1

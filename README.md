@@ -1,6 +1,6 @@
 # Tower Defense Game in Go
 
-A visually stunning tower defense game built with Go using the Ebitengine library, featuring **2 game modes**, 6 unique tower types, enhanced graphics, animations, and particle effects.
+A visually stunning tower defense game built with Go using the Ebitengine library, featuring **2 game modes**, 6 unique tower types, enhanced graphics, animations, particle effects, and **spacebar wave acceleration** with bonus rewards.
 
 ## 🎮 Game Modes
 
@@ -17,6 +17,13 @@ A visually stunning tower defense game built with Go using the Ebitengine librar
 - **Survival challenge**: How long can you last?
 - **Dynamic scaling**: Enemy health, speed, and count all increase
 - **High score competition**: Track your best wave performance
+
+## 🚀 **NEW: Spacebar Wave Acceleration**
+- **Press SPACE** to immediately start the next wave after clearing enemies
+- **Earn bonus money** based on how quickly you complete waves
+- **Minimum $25 bonus** guaranteed, up to 75% of wave bonus for fast completion
+- **Strategic depth**: Balance tower investment vs speed completion
+- **Risk-free feature**: Always beneficial to use!
 
 ## ✨ Enhanced Graphics Features
 
@@ -80,6 +87,7 @@ When you launch the game, you'll see a **Mode Selection Menu**:
 
 - **Mouse Click**: Place a tower at the clicked grid position
 - **Keys 1-6**: Select different tower types (see Tower Types below)
+- **SPACE**: Send next wave immediately (when wave complete) - **EARNS BONUS MONEY!**
 - **ESC/P**: Pause game (during gameplay)
 - **M**: Return to main menu (when paused)
 - **R**: Restart current mode (on game over)
