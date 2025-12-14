@@ -1,6 +1,6 @@
 # Tower Defense Game Makefile
 
-.PHONY: build run clean install-deps help
+.PHONY: build run clean install-deps demo test-menu help
 
 # Default target
 all: build
@@ -23,6 +23,23 @@ install-deps:
 	@echo "Installing system dependencies (Ubuntu/Debian)..."
 	sudo apt-get update
 	sudo apt-get install -y libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libgl1-mesa-dev libxxf86vm-dev
+
+# Run graphics demo
+demo: build
+	@echo "Starting enhanced graphics demo..."
+	./demo.sh
+
+# Test menu navigation
+test-menu: build
+	@echo "Testing menu navigation system..."
+	@echo "Instructions:"
+	@echo "1. Use ↑/↓ keys to navigate between all 3 options"
+	@echo "2. Try mouse hover and click on menu options"
+	@echo "3. Verify 'Endless Mode' is selectable"
+	@echo "4. Press ESC to exit when done testing"
+	@echo ""
+	@echo "Starting game for menu testing..."
+	./tower-defense
 
 # Clean build artifacts
 clean:
@@ -57,6 +74,8 @@ help:
 	@echo ""
 	@echo "  make build        - Build the game"
 	@echo "  make run          - Build and run the game"
+	@echo "  make demo         - Run enhanced graphics demonstration"
+	@echo "  make test-menu    - Test menu navigation system"
 	@echo "  make clean        - Remove build artifacts"
 	@echo "  make install-deps - Install system and Go dependencies"
 	@echo "  make test         - Run tests"

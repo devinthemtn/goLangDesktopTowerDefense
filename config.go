@@ -31,6 +31,29 @@ type GameConfig struct {
 	HeavyTowerRange  float64 `json:"heavy_tower_range"`
 	HeavyTowerRate   float64 `json:"heavy_tower_fire_rate"`
 
+	SniperTowerCost   int     `json:"sniper_tower_cost"`
+	SniperTowerDamage int     `json:"sniper_tower_damage"`
+	SniperTowerRange  float64 `json:"sniper_tower_range"`
+	SniperTowerRate   float64 `json:"sniper_tower_fire_rate"`
+
+	LaserTowerCost   int     `json:"laser_tower_cost"`
+	LaserTowerDamage int     `json:"laser_tower_damage"`
+	LaserTowerRange  float64 `json:"laser_tower_range"`
+	LaserTowerRate   float64 `json:"laser_tower_fire_rate"`
+
+	SplashTowerCost   int     `json:"splash_tower_cost"`
+	SplashTowerDamage int     `json:"splash_tower_damage"`
+	SplashTowerRange  float64 `json:"splash_tower_range"`
+	SplashTowerRate   float64 `json:"splash_tower_fire_rate"`
+	SplashRadius      float64 `json:"splash_radius"`
+
+	SlowTowerCost   int     `json:"slow_tower_cost"`
+	SlowTowerDamage int     `json:"slow_tower_damage"`
+	SlowTowerRange  float64 `json:"slow_tower_range"`
+	SlowTowerRate   float64 `json:"slow_tower_fire_rate"`
+	SlowEffect      float64 `json:"slow_effect"`
+	SlowDuration    float64 `json:"slow_duration"`
+
 	// Enemy settings
 	BaseEnemyHealth int `json:"base_enemy_health"`
 	HealthPerWave   int `json:"health_per_wave"`
@@ -39,10 +62,11 @@ type GameConfig struct {
 	EnemiesPerWave  int `json:"enemies_per_wave"`
 
 	// Visual settings
-	ShowRange      bool `json:"show_range"`
-	ShowHealthBars bool `json:"show_health_bars"`
-	ShowFPS        bool `json:"show_fps"`
-	GridSize       int  `json:"grid_size"`
+	ShowRange       bool    `json:"show_range"`
+	ShowHealthBars  bool    `json:"show_health_bars"`
+	ShowFPS         bool    `json:"show_fps"`
+	GridSize        int     `json:"grid_size"`
+	ParticleDensity float64 `json:"particle_density"`
 
 	// Audio settings (for future use)
 	MasterVolume float64 `json:"master_volume"`
@@ -55,6 +79,10 @@ type GameConfig struct {
 	RestartKey      string `json:"restart_key"`
 	TowerSelect1Key string `json:"tower_select_1_key"`
 	TowerSelect2Key string `json:"tower_select_2_key"`
+	TowerSelect3Key string `json:"tower_select_3_key"`
+	TowerSelect4Key string `json:"tower_select_4_key"`
+	TowerSelect5Key string `json:"tower_select_5_key"`
+	TowerSelect6Key string `json:"tower_select_6_key"`
 
 	// Debug settings
 	DebugMode      bool `json:"debug_mode"`
@@ -90,6 +118,29 @@ func DefaultConfig() *GameConfig {
 		HeavyTowerRange:  60,
 		HeavyTowerRate:   0.5,
 
+		SniperTowerCost:   150,
+		SniperTowerDamage: 100,
+		SniperTowerRange:  150,
+		SniperTowerRate:   0.3,
+
+		LaserTowerCost:   200,
+		LaserTowerDamage: 15,
+		LaserTowerRange:  70,
+		LaserTowerRate:   3.0,
+
+		SplashTowerCost:   180,
+		SplashTowerDamage: 40,
+		SplashTowerRange:  65,
+		SplashTowerRate:   0.8,
+		SplashRadius:      30,
+
+		SlowTowerCost:   120,
+		SlowTowerDamage: 10,
+		SlowTowerRange:  90,
+		SlowTowerRate:   1.5,
+		SlowEffect:      0.5,
+		SlowDuration:    2.0,
+
 		// Enemy settings
 		BaseEnemyHealth: 50,
 		HealthPerWave:   10,
@@ -98,10 +149,11 @@ func DefaultConfig() *GameConfig {
 		EnemiesPerWave:  3,
 
 		// Visual settings
-		ShowRange:      true,
-		ShowHealthBars: true,
-		ShowFPS:        false,
-		GridSize:       40,
+		ShowRange:       true,
+		ShowHealthBars:  true,
+		ShowFPS:         false,
+		GridSize:        40,
+		ParticleDensity: 1.0,
 
 		// Audio settings
 		MasterVolume: 1.0,
@@ -114,6 +166,10 @@ func DefaultConfig() *GameConfig {
 		RestartKey:      "R",
 		TowerSelect1Key: "1",
 		TowerSelect2Key: "2",
+		TowerSelect3Key: "3",
+		TowerSelect4Key: "4",
+		TowerSelect5Key: "5",
+		TowerSelect6Key: "6",
 
 		// Debug settings
 		DebugMode:      false,
@@ -241,6 +297,12 @@ func (c *GameConfig) ValidateConfig() {
 	if c.GridSize > 80 {
 		c.GridSize = 80
 	}
+	if c.ParticleDensity < 0 {
+		c.ParticleDensity = 0
+	}
+	if c.ParticleDensity > 2 {
+		c.ParticleDensity = 2
+	}
 
 	// Clamp audio values
 	if c.MasterVolume < 0 {
@@ -270,8 +332,36 @@ func (c *GameConfig) GetTowerStats(towerType int) (cost int, damage int, rangeVa
 		return c.BasicTowerCost, c.BasicTowerDamage, c.BasicTowerRange, c.BasicTowerRate
 	case 2: // Heavy Tower
 		return c.HeavyTowerCost, c.HeavyTowerDamage, c.HeavyTowerRange, c.HeavyTowerRate
+	case 3: // Sniper Tower
+		return c.SniperTowerCost, c.SniperTowerDamage, c.SniperTowerRange, c.SniperTowerRate
+	case 4: // Laser Tower
+		return c.LaserTowerCost, c.LaserTowerDamage, c.LaserTowerRange, c.LaserTowerRate
+	case 5: // Splash Tower
+		return c.SplashTowerCost, c.SplashTowerDamage, c.SplashTowerRange, c.SplashTowerRate
+	case 6: // Slow Tower
+		return c.SlowTowerCost, c.SlowTowerDamage, c.SlowTowerRange, c.SlowTowerRate
 	default:
 		return c.BasicTowerCost, c.BasicTowerDamage, c.BasicTowerRange, c.BasicTowerRate
+	}
+}
+
+// GetTowerName returns the name of a tower type
+func (c *GameConfig) GetTowerName(towerType int) string {
+	switch towerType {
+	case 1:
+		return "Basic"
+	case 2:
+		return "Heavy"
+	case 3:
+		return "Sniper"
+	case 4:
+		return "Laser"
+	case 5:
+		return "Splash"
+	case 6:
+		return "Slow"
+	default:
+		return "Unknown"
 	}
 }
 

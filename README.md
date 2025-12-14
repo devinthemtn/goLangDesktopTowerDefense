@@ -1,16 +1,42 @@
 # Tower Defense Game in Go
 
-A simple tower defense game built with Go using the Ebitengine library.
+A visually stunning tower defense game built with Go using the Ebitengine library, featuring **2 game modes**, 6 unique tower types, enhanced graphics, animations, and particle effects.
 
-## Features
+## 🎮 Game Modes
 
-- **Path-based enemy movement**: Enemies follow a predefined path
-- **Multiple tower types**: Basic and Heavy towers with different stats
-- **Wave system**: Progressively harder waves of enemies
+### 🎯 **Normal Mode (Campaign)**
+- **10 Progressive Levels** with unique objectives and challenges
+- **Story-driven progression** with increasing difficulty
+- **Level-specific bonuses** and starting resources
+- **Victory condition**: Complete all 10 levels
+- **Strategic planning**: Each level requires different tower strategies
+
+### ♾️ **Endless Mode** 
+- **Infinite waves** of increasingly difficult enemies
+- **Exponential scaling**: 15% difficulty increase per wave
+- **Survival challenge**: How long can you last?
+- **Dynamic scaling**: Enemy health, speed, and count all increase
+- **High score competition**: Track your best wave performance
+
+## ✨ Enhanced Graphics Features
+
+- **🎨 Procedural Textures**: Dynamic grass, stone paths, and water tiles
+- **🏗️ Animated Towers**: Rotating cannons, pulsing effects, and muzzle flashes
+- **👾 Enemy Animations**: Walking cycles, breathing effects, and damage visualization
+- **🎆 Particle Systems**: Explosions, trails, and impact effects
+- **💚 Enhanced UI**: Gradient health bars, visual feedback, and smooth animations
+- **🌟 Visual Effects**: Glowing projectiles, shadows, and range indicators
+
+## 🎮 Core Gameplay Features
+
+- **Dual Game Modes**: Choose between Campaign progression or Endless survival
+- **Path-based enemy movement**: Enemies follow a predefined path with visual trails
+- **6 Unique Tower Types**: Each with distinct visuals, abilities, and strategic purposes
+- **Dynamic difficulty**: Mode-specific scaling and progression systems
 - **Economy system**: Earn money by defeating enemies, spend it on towers
-- **Real-time combat**: Towers automatically target and shoot nearby enemies
-- **Health system**: Both enemies and player lives
-- **Visual feedback**: Health bars, range indicators, and projectiles
+- **Real-time combat**: Towers automatically target with muzzle flash effects
+- **Health system**: Visual health bars with color-coded damage states
+- **Particle effects**: Explosions on death and impact effects on hits
 
 ## Installation
 
@@ -30,28 +56,65 @@ go run main.go
 
 ## How to Play
 
-### Objective
-Defend your base by preventing enemies from reaching the end of the path. You lose lives when enemies reach the end, and the game ends when you run out of lives.
+### Game Start
+When you launch the game, you'll see a **Mode Selection Menu**:
+- **↑/↓ Keys**: Navigate between options
+- **Enter/Space**: Select game mode
+- **ESC**: Exit game
+
+### Game Modes
+
+#### 🎯 Normal Mode Objectives
+- **Complete 10 campaign levels** with unique challenges
+- **Progress through difficulties**: Each level has specific enemy counts and stats  
+- **Level completion**: Defeat all enemies in each level to advance
+- **Victory condition**: Complete all 10 levels successfully
+
+#### ♾️ Endless Mode Objectives  
+- **Survive infinite waves** of increasingly difficult enemies
+- **Track your progress**: See how many waves you can complete
+- **Exponential scaling**: Each wave becomes 15% more difficult
+- **Challenge yourself**: Compete for highest wave count
 
 ### Controls
 
 - **Mouse Click**: Place a tower at the clicked grid position
-- **Key 1**: Select Basic Tower ($50)
-- **Key 2**: Select Heavy Tower ($100)
+- **Keys 1-6**: Select different tower types (see Tower Types below)
+- **ESC/P**: Pause game (during gameplay)
+- **M**: Return to main menu (when paused)
+- **R**: Restart current mode (on game over)
 
 ### Tower Types
 
-1. **Basic Tower** ($50)
-   - Damage: 20
-   - Range: 80 pixels
-   - Fire Rate: 1 shot per second
-   - Good for early waves and crowd control
+**Key 1 - Basic Tower** ($50)
+   - Damage: 20 | Range: 80px | Rate: 1.0/sec
+   - **Rotating cannon** with metallic shine and stone base
+   - Good for early waves and general defense
 
-2. **Heavy Tower** ($100)
-   - Damage: 50
-   - Range: 60 pixels
-   - Fire Rate: 2 shots per second
-   - High damage but shorter range
+**Key 2 - Heavy Tower** ($100)
+   - Damage: 50 | Range: 60px | Rate: 0.5/sec  
+   - **Pulsing energy core** with triple-barrel design
+   - High damage, shorter range, armored appearance
+
+**Key 3 - Sniper Tower** ($150)
+   - Damage: 100 | Range: 150px | Rate: 0.3/sec
+   - **Long-range scope** with precision targeting
+   - Elevated platform, slow but devastating shots
+
+**Key 4 - Laser Tower** ($200)
+   - Damage: 15 | Range: 70px | Rate: 3.0/sec
+   - **Rapid-fire energy beams** with crystal emitters
+   - Fast continuous damage with blue energy effects
+
+**Key 5 - Splash Tower** ($180)
+   - Damage: 40 | Range: 65px | Rate: 0.8/sec
+   - **Area damage mortar** with explosive shells
+   - Damages multiple enemies in splash radius
+
+**Key 6 - Slow Tower** ($120)
+   - Damage: 10 | Range: 90px | Rate: 1.5/sec
+   - **Ice crystals** that slow enemy movement
+   - Reduces enemy speed by 50% for crowd control
 
 ### Game Mechanics
 
@@ -63,52 +126,96 @@ Defend your base by preventing enemies from reaching the end of the path. You lo
 
 ### Strategy Tips
 
-1. **Early Game**: Place Basic Towers near the beginning of the path for maximum damage time
-2. **Chokepoints**: Use Heavy Towers at curves where enemies bunch up
-3. **Economy**: Balance spending on towers vs. saving for stronger towers
-4. **Range Management**: Use the white range circles to optimize tower placement
+#### 🎯 Normal Mode Strategy
+1. **Level Planning**: Each level has preset enemy counts - plan accordingly
+2. **Resource Management**: Starting money varies per level - spend wisely
+3. **Progressive Difficulty**: Later levels need stronger tower combinations
+4. **Completion Focus**: Eliminate all enemies to advance to next level
 
-### Game Elements
+#### ♾️ Endless Mode Strategy  
+1. **Early Investment**: Build strong foundation with basic towers
+2. **Scaling Preparation**: Save money for expensive towers as waves get harder
+3. **Efficiency Focus**: Maximize damage per dollar spent
+4. **Survival Mindset**: Plan for exponentially increasing difficulty
 
-- **Green Background**: Grass/terrain
-- **Brown Path**: Enemy walking path
-- **Gray Circles**: Towers with white range indicators
-- **Red Circles**: Enemies with green/red health bars
-- **Yellow Dots**: Projectiles fired by towers
+#### 🏗️ Universal Tower Tips
+1. **Early Game**: Start with Basic Towers for cost-effective general defense
+2. **Long Range**: Use Sniper Towers at path corners for maximum damage time  
+3. **Crowd Control**: Place Slow Towers at the start to reduce enemy speed
+4. **Area Denial**: Use Splash Towers where enemies cluster together
+5. **Continuous DPS**: Laser Towers excel against multiple weak enemies
+6. **Heavy Assault**: Heavy Towers for high single-target damage
+7. **Economy**: Balance tower costs - expensive towers need good positioning
+
+### Enhanced Visual Elements
+
+- **Textured Background**: Static procedural grass and stone path textures
+- **6 Unique Tower Designs**: 
+  - **Basic**: Rotating cannon with metallic shine
+  - **Heavy**: Pulsing energy core with armor plating  
+  - **Sniper**: Elevated platform with long barrel and scope
+  - **Laser**: Crystalline structure with spinning energy emitters
+  - **Splash**: Heavy mortar with explosive shell loading
+  - **Slow**: Ice crystal spikes with freezing wave effects
+- **Animated Enemies**: Walking cycles, breathing, and damage-based color changes
+- **Smart Projectiles**: Different visual styles based on tower type
+- **Particle Effects**: Controlled explosions, trails, and visual feedback
+- **Professional UI**: Gradient health bars and tower selection display
 
 ## Code Structure
 
-- `main.go`: Complete game implementation including:
-  - Game state management
-  - Enemy spawning and movement
-  - Tower placement and targeting
-  - Projectile physics
-  - UI rendering
-  - Input handling
+- `main.go`: Core game logic and gameplay systems
+- `gamemode.go`: Game mode system with:
+  - Mode selection menu and navigation
+  - Normal mode level progression (10 levels)
+  - Endless mode infinite scaling
+  - Game state management (menu, playing, paused, game over)
+  - Level data and difficulty curves
+- `config.go`: Comprehensive configuration system with JSON support  
+- `graphics.go`: Enhanced graphics system with:
+  - Procedural texture generation
+  - Sprite animation system
+  - Particle effects and physics
+  - Visual enhancement rendering
+  - Advanced drawing utilities
 
 ## Dependencies
 
-- `github.com/hajimehoshi/ebiten/v2`: 2D game engine for Go
-- Standard Go libraries for math and graphics
+- `github.com/hajimehoshi/ebiten/v2`: 2D game engine with hardware acceleration
+- Standard Go libraries for math, graphics, and JSON configuration
+- Vector graphics support for scalable visual effects
 
 ## Future Enhancements
 
 Potential improvements you could add:
 
-- More tower types (splash damage, slowing, etc.)
-- Different enemy types with special abilities
-- Upgradeable towers
-- Sound effects and music
-- More complex maps with multiple paths
-- Save/load game state
-- High score system
-- Particle effects for explosions
+- **More Game Modes**: Time attack, survival challenges, puzzle levels
+- **Advanced Graphics**: Shader effects, dynamic lighting, weather systems  
+- **Tower Upgrades**: Multi-level enhancement system for existing towers
+- **Enemy Varieties**: Flying enemies, armored units, boss enemies, enemy abilities
+- **Campaign Features**: Story elements, cutscenes, character progression
+- **Audio system**: Sound effects, music, and spatial audio
+- **Map editor**: Custom level creation tools
+- **Multiplayer**: Cooperative and competitive modes
+- **Advanced effects**: Screen shake, bloom, post-processing
+- **Achievements**: Unlock system for completing challenges
 
 ## Technical Details
 
-- **Resolution**: 800x600 pixels
-- **Grid Size**: 40x40 pixel cells (20x15 grid)
-- **Frame Rate**: 60 FPS
-- **Coordinate System**: Top-left origin
+- **Resolution**: Configurable (default 800x600 pixels)
+- **Grid Size**: Configurable texture resolution (default 40x40 pixels)
+- **Frame Rate**: 60 FPS with VSync support
+- **Graphics**: Hardware-accelerated vector rendering with particle systems
+- **Textures**: Procedurally generated at runtime for variety
+- **Animation**: Frame-based sprite animation with configurable timing
 
-Enjoy defending your tower!
+## 📖 Additional Documentation
+
+- **TOWERS.md**: Complete tower guide with strategies and stats
+- **GRAPHICS.md**: Detailed graphics system documentation  
+- **FEATURES.md**: Comprehensive feature overview
+- **SHOWCASE.md**: Complete visual transformation showcase
+- **config.json**: Runtime configuration options
+- **demo.sh**: Interactive graphics demonstration script
+
+Enjoy defending your tower with enhanced visuals! 🎮✨
