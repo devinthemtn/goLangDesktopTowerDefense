@@ -65,6 +65,7 @@ type Game struct {
 	spacePressed      bool
 	lastBonusEarned   int
 	bonusDisplayTimer float64
+	saveManager       *SaveManager
 }
 
 func NewGame(config *GameConfig) *Game {
@@ -110,8 +111,23 @@ func NewGame(config *GameConfig) *Game {
 }
 
 func (g *Game) Update() error {
+	// Add error recovery for update loop
+	defer func() {
+		if r := recover(); r != nil {
+			LogError("Panic in Update loop: %v", r)
+			// Try to auto-save before crash
+			if g.saveManager != nil {
+				if err := g.saveManager.AutoSave(g); err != nil {
+					LogError("Failed to auto-save after panic: %v", err)
+				}
+			}
+			panic(r) // Re-panic to trigger main recovery
+		}
+	}()
+
 	// Update game mode system
 	if err := g.modeManager.Update(g); err != nil {
+		LogError("Mode manager update error: %v", err)
 		return err
 	}
 
@@ -562,25 +578,63 @@ func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {
 }
 
 func main() {
+	// Set up panic recovery
+	defer func() {
+		if r := recover(); r != nil {
+			LogError("PANIC: %v", r)
+			fmt.Fprintf(os.Stderr, "Game crashed with error: %v\n", r)
+			fmt.Fprintf(os.Stderr, "Please check the log file in the 'logs' directory for details.\n")
+			os.Exit(1)
+		}
+	}()
+
+	// Initialize logger
+	isProduction := !IsDevBuild()
+	if err := InitLogger(isProduction); err != nil {
+		log.Printf("Warning: Failed to initialize logger: %v", err)
+	}
+	defer CloseLogger()
+
+	// Log startup information
+	LogInfo("=== Tower Defense Game Starting ===")
+	LogInfo("Version: %s", GetVersionString())
+	LogInfo("Build Info: %s", GetFullVersionString())
+
 	// Determine config file to use
 	configFile := "config.json"
 	if len(os.Args) > 1 {
 		configFile = os.Args[1]
+		LogInfo("Using custom config file: %s", configFile)
 	}
 
-	// Load configuration
+	// Load configuration with error handling
 	config, err := LoadConfig(configFile)
 	if err != nil {
-		log.Printf("Error loading config: %v, using defaults", err)
+		LogWarn("Error loading config: %v, using defaults", err)
 		config = DefaultConfig()
+		// Try to save default config
+		if saveErr := config.SaveConfig(configFile); saveErr != nil {
+			LogWarn("Failed to save default config: %v", saveErr)
+		}
+	} else {
+		LogInfo("Configuration loaded successfully from %s", configFile)
 	}
 
 	// Validate configuration
 	config.ValidateConfig()
 
+	// Initialize save manager
+	saveManager, err := NewSaveManager()
+	if err != nil {
+		LogError("Failed to initialize save manager: %v", err)
+		fmt.Fprintf(os.Stderr, "Error: Could not initialize save system: %v\n", err)
+		os.Exit(1)
+	}
+	LogInfo("Save manager initialized")
+
 	// Set window properties
 	ebiten.SetWindowSize(config.WindowWidth, config.WindowHeight)
-	ebiten.SetWindowTitle(config.WindowTitle)
+	ebiten.SetWindowTitle(fmt.Sprintf("%s - %s", config.WindowTitle, GetVersionString()))
 	if config.Fullscreen {
 		ebiten.SetFullscreen(true)
 	}
@@ -588,8 +642,17 @@ func main() {
 		ebiten.SetVsyncEnabled(true)
 	}
 
+	LogInfo("Window initialized: %dx%d", config.WindowWidth, config.WindowHeight)
+
 	game := NewGame(config)
+	game.saveManager = saveManager
+
+	LogInfo("Starting game loop...")
 	if err := ebiten.RunGame(game); err != nil {
-		panic(err)
+		LogError("Game error: %v", err)
+		fmt.Fprintf(os.Stderr, "Game error: %v\n", err)
+		os.Exit(1)
 	}
+
+	LogInfo("=== Game Shutdown Complete ===")
 }

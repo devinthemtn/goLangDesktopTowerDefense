@@ -313,6 +313,16 @@ func (gmm *GameModeManager) updateNormalMode(game *Game) error {
 		if gmm.CurrentLevel >= gmm.MaxLevel {
 			// Game completed!
 			gmm.CurrentState = StateVictory
+
+			// Auto-save on victory
+			if game.saveManager != nil {
+				if err := game.saveManager.AutoSave(game); err != nil {
+					LogError("Failed to auto-save on victory: %v", err)
+				} else {
+					LogInfo("Auto-saved on game victory")
+				}
+			}
+
 			if game.config.DebugMode {
 				fmt.Printf("*** GAME VICTORY! ***\n")
 			}
@@ -323,6 +333,15 @@ func (gmm *GameModeManager) updateNormalMode(game *Game) error {
 				bonus = gmm.calculateEarlyCompletionBonus(game)
 				if game.config.DebugMode {
 					fmt.Printf("*** EARLY WAVE COMPLETION! Bonus: $%d ***\n", bonus)
+				}
+			}
+
+			// Auto-save before advancing level
+			if game.saveManager != nil {
+				if err := game.saveManager.AutoSave(game); err != nil {
+					LogError("Failed to auto-save on level completion: %v", err)
+				} else {
+					LogInfo("Auto-saved on level %d completion", gmm.CurrentLevel)
 				}
 			}
 
@@ -620,12 +639,16 @@ func (gmm *GameModeManager) DrawMenu(screen *ebiten.Image, config *GameConfig) {
 	titleText := "TOWER DEFENSE"
 	ebitenutil.DebugPrintAt(screen, titleText, config.WindowWidth/2-100, 100)
 
+	// Version info
+	versionText := GetVersionString()
+	ebitenutil.DebugPrintAt(screen, versionText, config.WindowWidth/2-60, 130)
+
 	// Subtitle
 	subtitleText := "Choose Your Battle Mode"
-	ebitenutil.DebugPrintAt(screen, subtitleText, config.WindowWidth/2-80, 140)
+	ebitenutil.DebugPrintAt(screen, subtitleText, config.WindowWidth/2-80, 160)
 
 	// Menu options
-	menuY := 200
+	menuY := 220
 	for i, option := range gmm.MenuOptions {
 		x := config.WindowWidth/2 - 80
 		y := menuY + i*50

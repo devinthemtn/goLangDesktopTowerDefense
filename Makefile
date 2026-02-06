@@ -1,14 +1,22 @@
 # Tower Defense Game Makefile
 
-.PHONY: build run clean install-deps demo test-menu debug-waves help
+.PHONY: build run clean install-deps demo test-menu debug-waves help version
+
+# Version information
+VERSION := 1.0.0-dev
+BUILD_DATE := $(shell date -u +"%Y-%m-%dT%H:%M:%SZ")
+GIT_COMMIT := $(shell git rev-parse --short HEAD 2>/dev/null || echo "unknown")
+LDFLAGS := -X 'main.Version=$(VERSION)' -X 'main.BuildDate=$(BUILD_DATE)' -X 'main.GitCommit=$(GIT_COMMIT)'
 
 # Default target
 all: build
 
-# Build the game
+# Build the game with version information
 build:
-	@echo "Building Tower Defense Game..."
-	go build -o tower-defense *.go
+	@echo "Building Tower Defense Game v$(VERSION)..."
+	@echo "Commit: $(GIT_COMMIT)"
+	@echo "Date: $(BUILD_DATE)"
+	go build -ldflags "$(LDFLAGS)" -o tower-defense *.go
 	@echo "✅ Build complete! Run with: make run"
 
 # Run the game
@@ -70,14 +78,22 @@ vet:
 # Create a release build
 release: clean fmt vet
 	@echo "Building release version..."
-	go build -ldflags="-s -w" -o tower-defense *.go
+	@echo "Version: $(VERSION)"
+	go build -ldflags="$(LDFLAGS) -s -w" -o tower-defense *.go
 	@echo "✅ Release build complete!"
+
+# Show version information
+version:
+	@echo "Tower Defense Game"
+	@echo "Version: $(VERSION)"
+	@echo "Git Commit: $(GIT_COMMIT)"
+	@echo "Build Date: $(BUILD_DATE)"
 
 # Show help
 help:
 	@echo "Tower Defense Game - Available Commands:"
 	@echo ""
-	@echo "  make build        - Build the game"
+	@echo "  make build        - Build the game with version info"
 	@echo "  make run          - Build and run the game"
 	@echo "  make demo         - Run enhanced graphics demonstration"
 	@echo "  make test-menu    - Test menu navigation system"
@@ -88,6 +104,7 @@ help:
 	@echo "  make fmt          - Format Go code"
 	@echo "  make vet          - Run go vet"
 	@echo "  make release      - Create optimized release build"
+	@echo "  make version      - Show version information"
 	@echo "  make help         - Show this help message"
 	@echo ""
 	@echo "Game Controls:"

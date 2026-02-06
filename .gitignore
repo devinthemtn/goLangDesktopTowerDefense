@@ -1,0 +1,42 @@
+# Binaries
+tower-defense
+tower-defense-debug
+tower-defense.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Build artifacts
+dist/
+build/
+release/
+
+# Go build cache
+*.o
+*.a
+*.out
+
+# Logs
+logs/
+*.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Game data (optional - uncomment if you don't want to track test outputs)
+*_test.txt
+*_output.txt
+*_session.txt
+
+# Temporary files
+tmp/
+temp/
