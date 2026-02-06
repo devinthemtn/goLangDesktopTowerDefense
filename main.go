@@ -66,6 +66,9 @@ type Game struct {
 	lastBonusEarned   int
 	bonusDisplayTimer float64
 	saveManager       *SaveManager
+	audioManager      *AudioManager
+	settingsMenu      *SettingsMenu
+	helpScreen        *HelpScreen
 }
 
 func NewGame(config *GameConfig) *Game {
@@ -85,6 +88,13 @@ func NewGame(config *GameConfig) *Game {
 		{float64(mapWidth), float64(mapHeight / 3)},
 	}
 
+	// Initialize audio manager
+	audioManager, err := NewAudioManager(48000)
+	if err != nil {
+		LogWarn("Audio not available: %v (continuing without audio)", err)
+		audioManager = nil
+	}
+
 	game := &Game{
 		enemies:           []*Enemy{},
 		towers:            []*Tower{},
@@ -100,7 +110,25 @@ func NewGame(config *GameConfig) *Game {
 		enemiesPerWave:    config.GetEnemiesInWave(1),
 		graphics:          NewGraphicsManager(),
 		modeManager:       NewGameModeManagerWithDebug(config.DebugMode, config),
+		audioManager:      audioManager,
 	}
+
+	// Initialize settings menu
+	if audioManager != nil {
+		game.settingsMenu = NewSettingsMenu(config, audioManager)
+		
+		// Apply saved audio settings
+		audioManager.SetMasterVolume(config.MasterVolume)
+		audioManager.SetMusicVolume(config.MusicVolume)
+		audioManager.SetSFXVolume(config.SFXVolume)
+		
+		if config.MuteAudio {
+			audioManager.ToggleMusic()
+		}
+	}
+	
+	// Initialize help screen
+	game.helpScreen = NewHelpScreen(config)
 
 	// If debug mode auto-started playing mode, setup the first level
 	if config.DebugMode && game.modeManager.CurrentState == StatePlaying {
@@ -149,6 +177,32 @@ func (g *Game) Update() error {
 		}
 	}
 	g.spacePressed = spaceCurrentlyPressed
+
+	// Handle settings menu toggle (S key or F1)
+	if g.settingsMenu != nil {
+		if ebiten.IsKeyPressed(ebiten.KeyS) || ebiten.IsKeyPressed(ebiten.KeyF1) {
+			g.settingsMenu.Toggle()
+		}
+		
+		// Update settings menu if visible
+		if g.settingsMenu.IsVisible() {
+			g.settingsMenu.Update()
+			return nil // Don't update game when settings menu is open
+		}
+	}
+	
+	// Handle help screen toggle (H key or F2)
+	if g.helpScreen != nil {
+		if ebiten.IsKeyPressed(ebiten.KeyH) || ebiten.IsKeyPressed(ebiten.KeyF2) {
+			g.helpScreen.Toggle()
+		}
+		
+		// Update help screen if visible
+		if g.helpScreen.IsVisible() {
+			g.helpScreen.Update()
+			return nil // Don't update game when help screen is open
+		}
+	}
 
 	// Update particle system
 	g.graphics.ParticleSystem.Update()
@@ -505,6 +559,16 @@ func (g *Game) Draw(screen *ebiten.Image) {
 
 		// Draw game state overlays
 		g.modeManager.DrawGameState(screen, g)
+		
+		// Draw settings menu on top of everything
+		if g.settingsMenu != nil && g.settingsMenu.IsVisible() {
+			g.settingsMenu.Draw(screen)
+		}
+		
+		// Draw help screen on top of everything
+		if g.helpScreen != nil && g.helpScreen.IsVisible() {
+			g.helpScreen.Draw(screen)
+		}
 	}
 }
 
@@ -554,7 +618,8 @@ func (g *Game) drawGameContent(screen *ebiten.Image) {
 			"4: Laser ($%d)  5: Splash ($%d)  6: Slow ($%d)\n\n"+
 			"Selected: %s Tower\n"+
 			"Click to place towers and defend against enemies!\n"+
-			"Press SPACE when wave complete for bonus money!",
+			"Press SPACE when wave complete for bonus money!\n"+
+			"Press S/F1 for Settings | H/F2 for Help",
 			g.money, g.lives, g.wave, waveStatus,
 			cost1, cost2, cost3, cost4, cost5, cost6,
 			g.config.GetTowerName(g.selectedTowerType))
