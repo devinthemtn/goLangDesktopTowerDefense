@@ -55,10 +55,26 @@ A visually stunning tower defense game built with Go using the Ebitengine librar
    go mod tidy
    ```
 
+## Building the Game
+
+```bash
+go build -o tower-defense .
+```
+
+Or use the Makefile:
+```bash
+make build
+```
+
 ## Running the Game
 
 ```bash
-go run main.go
+./tower-defense
+```
+
+Or build and run in one step:
+```bash
+make run
 ```
 
 ## How to Play

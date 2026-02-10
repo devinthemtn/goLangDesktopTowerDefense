@@ -57,10 +57,12 @@ func (sm *SettingsMenu) Show() {
 	sm.visible = true
 }
 
-// Hide hides the settings menu
+// Hide hides the settings menu and saves settings
 func (sm *SettingsMenu) Hide() {
 	sm.visible = false
 	sm.sliderDragging = -1
+	// Auto-save settings when closing
+	sm.SaveSettings()
 }
 
 // IsVisible returns whether the menu is visible

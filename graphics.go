@@ -788,11 +788,3 @@ func (ps *ParticleSystem) Draw(screen *ebiten.Image) {
 		vector.DrawFilledCircle(screen, x, y, particle.Size, particleColor, false)
 	}
 }
-
-// Helper functions
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}

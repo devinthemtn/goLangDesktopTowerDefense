@@ -61,6 +61,7 @@ type GameModeManager struct {
 	KeyDownPressed    bool
 	KeyEnterPressed   bool
 	KeySpacePressed   bool
+	MousePressed      bool // Track mouse button state for menu
 }
 
 // NewGameModeManager creates a new game mode manager
@@ -223,10 +224,12 @@ func (gmm *GameModeManager) updateMenu(game *Game) error {
 	gmm.KeyEnterPressed = enterPressed
 	gmm.KeySpacePressed = spacePressed
 
-	// Handle mouse click selection
-	if ebiten.IsMouseButtonPressed(ebiten.MouseButtonLeft) {
+	// Handle mouse click selection (single click, not continuous)
+	mousePressed := ebiten.IsMouseButtonPressed(ebiten.MouseButtonLeft)
+	if mousePressed && !gmm.MousePressed {
 		selectionMade = true
 	}
+	gmm.MousePressed = mousePressed
 
 	if selectionMade {
 		switch gmm.MenuSelection {
@@ -374,18 +377,46 @@ func (gmm *GameModeManager) updateNormalMode(game *Game) error {
 // updateEndlessMode handles endless mode scaling difficulty
 func (gmm *GameModeManager) updateEndlessMode(game *Game) error {
 	// Check if wave is completed
-	if len(game.enemies) == 0 && game.enemiesSpawned >= game.enemiesPerWave {
-		// Add debug output
+	waveComplete := len(game.enemies) == 0 && game.enemiesSpawned >= game.enemiesPerWave
+	
+	if waveComplete {
+		gmm.TransitionTimer += 1.0 / 60.0
+	} else {
+		gmm.TransitionTimer = 0
+	}
+
+	// Advance wave via spacebar or auto after delay (consistent with normal mode)
+	if waveComplete && (game.nextWaveRequested || gmm.shouldAutoAdvance()) {
 		if game.config.DebugMode {
 			fmt.Printf("Wave %d completed! Enemies: %d, Spawned: %d/%d\n",
 				gmm.EndlessWave, len(game.enemies), game.enemiesSpawned, game.enemiesPerWave)
 		}
 
+		// Calculate early completion bonus if spacebar was used
+		if game.nextWaveRequested {
+			bonus := gmm.calculateEndlessBonus(game)
+			if bonus > 0 {
+				game.money += bonus
+				game.lastBonusEarned = bonus
+				game.bonusDisplayTimer = 3.0
+			}
+		}
+
 		gmm.EndlessWave++
 		gmm.EndlessDifficulty += 0.15 // Increase difficulty by 15% each wave
 		gmm.setupEndlessWave(game)
+		
+		// Reset flags
+		game.nextWaveRequested = false
+		gmm.TransitionTimer = 0
 	}
 	return nil
+}
+
+// calculateEndlessBonus calculates bonus for endless mode early wave completion
+func (gmm *GameModeManager) calculateEndlessBonus(game *Game) int {
+	baseBonus := 50 + gmm.EndlessWave*10
+	return baseBonus / 2 // 50% bonus for using spacebar in endless mode
 }
 
 // updateGameOver handles game over state
@@ -857,14 +888,6 @@ func (gmm *GameModeManager) GetCurrentModeInfo() (GameMode, GameState, int) {
 	default:
 		return gmm.CurrentMode, gmm.CurrentState, 0
 	}
-}
-
-// Helper function for max
-func max(a, b float64) float64 {
-	if a > b {
-		return a
-	}
-	return b
 }
 
 // Helper function for max integers

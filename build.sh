@@ -29,7 +29,7 @@ fi
 
 # Build the game
 echo "Compiling game..."
-go build -o tower-defense main.go
+go build -o tower-defense .
 
 if [ $? -eq 0 ]; then
     echo "✅ Build successful!"

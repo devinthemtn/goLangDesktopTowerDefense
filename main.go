@@ -15,14 +15,17 @@ type Point struct {
 }
 
 type Enemy struct {
-	Position   Point
-	Target     Point
-	Health     int
-	MaxHealth  int
-	Speed      float64
-	PathIndex  int
-	Alive      bool
-	ReachedEnd bool
+	Position      Point
+	Target        Point
+	Health        int
+	MaxHealth     int
+	Speed         float64
+	BaseSpeed     float64 // Original speed before slow effects
+	PathIndex     int
+	Alive         bool
+	ReachedEnd    bool
+	SlowTimer     float64 // Time remaining for slow effect
+	SlowIntensity float64 // Current slow multiplier (1.0 = no slow)
 }
 
 type Tower struct {
@@ -37,11 +40,12 @@ type Tower struct {
 }
 
 type Projectile struct {
-	Position Point
-	Target   *Enemy
-	Speed    float64
-	Damage   int
-	Active   bool
+	Position    Point
+	Target      *Enemy
+	Speed       float64
+	Damage      int
+	Active      bool
+	SourceTower *Tower // Track which tower fired this projectile
 }
 
 type Game struct {
@@ -69,6 +73,9 @@ type Game struct {
 	audioManager      *AudioManager
 	settingsMenu      *SettingsMenu
 	helpScreen        *HelpScreen
+	settingsKeyPressed bool // Track settings key state
+	helpKeyPressed     bool // Track help key state
+	mousePressed       bool // Track mouse button state for tower placement
 }
 
 func NewGame(config *GameConfig) *Game {
@@ -153,6 +160,11 @@ func (g *Game) Update() error {
 		}
 	}()
 
+	// Handle Q key to quit the game
+	if ebiten.IsKeyPressed(ebiten.KeyQ) {
+		return ebiten.Termination
+	}
+
 	// Update game mode system
 	if err := g.modeManager.Update(g); err != nil {
 		LogError("Mode manager update error: %v", err)
@@ -178,11 +190,13 @@ func (g *Game) Update() error {
 	}
 	g.spacePressed = spaceCurrentlyPressed
 
-	// Handle settings menu toggle (S key or F1)
+	// Handle settings menu toggle (S key or F1) - with key state tracking
 	if g.settingsMenu != nil {
-		if ebiten.IsKeyPressed(ebiten.KeyS) || ebiten.IsKeyPressed(ebiten.KeyF1) {
+		settingsKeyCurrentlyPressed := ebiten.IsKeyPressed(ebiten.KeyS) || ebiten.IsKeyPressed(ebiten.KeyF1)
+		if settingsKeyCurrentlyPressed && !g.settingsKeyPressed {
 			g.settingsMenu.Toggle()
 		}
+		g.settingsKeyPressed = settingsKeyCurrentlyPressed
 		
 		// Update settings menu if visible
 		if g.settingsMenu.IsVisible() {
@@ -191,11 +205,13 @@ func (g *Game) Update() error {
 		}
 	}
 	
-	// Handle help screen toggle (H key or F2)
+	// Handle help screen toggle (H key or F2) - with key state tracking
 	if g.helpScreen != nil {
-		if ebiten.IsKeyPressed(ebiten.KeyH) || ebiten.IsKeyPressed(ebiten.KeyF2) {
+		helpKeyCurrentlyPressed := ebiten.IsKeyPressed(ebiten.KeyH) || ebiten.IsKeyPressed(ebiten.KeyF2)
+		if helpKeyCurrentlyPressed && !g.helpKeyPressed {
 			g.helpScreen.Toggle()
 		}
+		g.helpKeyPressed = helpKeyCurrentlyPressed
 		
 		// Update help screen if visible
 		if g.helpScreen.IsVisible() {
@@ -284,14 +300,16 @@ func (g *Game) Update() error {
 		}
 	}
 
-	// Handle mouse input for tower placement
-	if ebiten.IsMouseButtonPressed(ebiten.MouseButtonLeft) {
+	// Handle mouse input for tower placement (single click, not continuous)
+	mouseCurrentlyPressed := ebiten.IsMouseButtonPressed(ebiten.MouseButtonLeft)
+	if mouseCurrentlyPressed && !g.mousePressed {
 		x, y := ebiten.CursorPosition()
 		cellSize := g.config.GridSize
 		gridX := x / cellSize
 		gridY := y / cellSize
 		g.placeTower(float64(gridX), float64(gridY))
 	}
+	g.mousePressed = mouseCurrentlyPressed
 
 	// Handle key input for tower selection (only in playing state)
 	if g.modeManager.CurrentState == StatePlaying {
@@ -325,12 +343,15 @@ func (g *Game) spawnEnemy() {
 	health := g.config.GetEnemyHealth(g.wave)
 
 	enemy := &Enemy{
-		Position:  Point{g.path[0].X*cellSize + cellSize/2, g.path[0].Y*cellSize + cellSize/2},
-		Health:    health,
-		MaxHealth: health,
-		Speed:     g.config.EnemySpeed,
-		PathIndex: 0,
-		Alive:     true,
+		Position:      Point{g.path[0].X*cellSize + cellSize/2, g.path[0].Y*cellSize + cellSize/2},
+		Health:        health,
+		MaxHealth:     health,
+		Speed:         g.config.EnemySpeed,
+		BaseSpeed:     g.config.EnemySpeed, // Store original speed
+		PathIndex:     0,
+		Alive:         true,
+		SlowTimer:     0,
+		SlowIntensity: 1.0, // No slow effect initially
 	}
 
 	if len(g.path) > 1 {
@@ -344,6 +365,16 @@ func (g *Game) moveEnemy(enemy *Enemy) {
 	if enemy.PathIndex >= len(g.path)-1 {
 		enemy.ReachedEnd = true
 		return
+	}
+
+	// Update slow effect timer and restore speed if expired
+	if enemy.SlowTimer > 0 {
+		enemy.SlowTimer -= 1.0 / 60.0
+		if enemy.SlowTimer <= 0 {
+			enemy.SlowTimer = 0
+			enemy.SlowIntensity = 1.0
+			enemy.Speed = enemy.BaseSpeed // Restore original speed
+		}
 	}
 
 	// Move towards target
@@ -401,11 +432,42 @@ func (g *Game) placeTower(gridX, gridY float64) {
 }
 
 func (g *Game) isOnPath(gridX, gridY float64) bool {
+	// Check waypoints
 	for _, point := range g.path {
 		if point.X == gridX && point.Y == gridY {
 			return true
 		}
 	}
+
+	// Check path segments between waypoints
+	for i := 0; i < len(g.path)-1; i++ {
+		if g.isOnPathSegment(gridX, gridY, g.path[i], g.path[i+1]) {
+			return true
+		}
+	}
+	return false
+}
+
+// isOnPathSegment checks if a grid cell lies on the path between two waypoints
+func (g *Game) isOnPathSegment(gridX, gridY float64, start, end Point) bool {
+	// For horizontal segments
+	if start.Y == end.Y && gridY == start.Y {
+		minX := math.Min(start.X, end.X)
+		maxX := math.Max(start.X, end.X)
+		if gridX >= minX && gridX <= maxX {
+			return true
+		}
+	}
+
+	// For vertical segments
+	if start.X == end.X && gridX == start.X {
+		minY := math.Min(start.Y, end.Y)
+		maxY := math.Max(start.Y, end.Y)
+		if gridY >= minY && gridY <= maxY {
+			return true
+		}
+	}
+
 	return false
 }
 
@@ -449,29 +511,19 @@ func (g *Game) applyProjectileDamage(proj *Projectile) {
 		return
 	}
 
-	// Find the tower that fired this projectile to get special effects
-	var sourceTower *Tower
-	for _, tower := range g.towers {
-		// This is simplified - in a real game you'd track projectile source
-		if tower.Type >= 3 { // For now, assume special towers
-			sourceTower = tower
-			break
-		}
-	}
-
 	// Apply base damage
 	proj.Target.Health -= proj.Damage
 	if proj.Target.Health <= 0 {
 		proj.Target.Alive = false
 	}
 
-	// Apply special effects if source tower has them
-	if sourceTower != nil {
-		switch sourceTower.Type {
+	// Apply special effects from the source tower
+	if proj.SourceTower != nil {
+		switch proj.SourceTower.Type {
 		case 5: // Splash Tower - damage nearby enemies
-			g.applySplashDamage(proj.Target.Position, sourceTower)
+			g.applySplashDamage(proj.Target.Position, proj.SourceTower)
 		case 6: // Slow Tower - apply slow effect
-			g.applySlowEffect(proj.Target, sourceTower)
+			g.applySlowEffect(proj.Target, proj.SourceTower)
 		}
 	}
 }
@@ -501,23 +553,25 @@ func (g *Game) applySplashDamage(center Point, tower *Tower) {
 	}
 }
 
-// applySlowEffect applies slowing effect to enemy
+// applySlowEffect applies slowing effect to enemy with duration
 func (g *Game) applySlowEffect(enemy *Enemy, tower *Tower) {
-	// Store original speed and apply slow
-	if enemy.Speed >= 1.0 { // Only slow if not already slowed
-		slowEffect := tower.Special["slow_effect"]
-		enemy.Speed *= slowEffect
-		// In a more complex system, you'd track slow duration and restore speed
-	}
+	slowEffect := tower.Special["slow_effect"]
+	slowDuration := tower.Special["slow_duration"]
+
+	// Apply or refresh slow effect
+	enemy.SlowTimer = slowDuration
+	enemy.SlowIntensity = slowEffect
+	enemy.Speed = enemy.BaseSpeed * slowEffect
 }
 
 func (g *Game) fireTower(tower *Tower, target *Enemy) {
 	projectile := &Projectile{
-		Position: Point{tower.Position.X, tower.Position.Y},
-		Target:   target,
-		Speed:    5.0,
-		Damage:   tower.Damage,
-		Active:   true,
+		Position:    Point{tower.Position.X, tower.Position.Y},
+		Target:      target,
+		Speed:       5.0,
+		Damage:      tower.Damage,
+		Active:      true,
+		SourceTower: tower, // Track which tower fired this projectile
 	}
 	g.projectiles = append(g.projectiles, projectile)
 }
